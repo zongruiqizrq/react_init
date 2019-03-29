@@ -1,0 +1,22 @@
+{
+  "presets": [
+    "env",
+    "react", 
+    "stage-0"
+  ],
+  "plugins": [
+    "react-loadable/babel",
+    "transform-decorators-legacy",
+    "syntax-dynamic-import",
+    ["import", { "libraryName": "antd", "style": "css" }],
+    ["import-inspector", {
+      "serverSideRequirePath": true
+    }],
+    ["transform-runtime",{
+      "helpers": false,
+      "polyfill": false,
+      "regenerator": true,
+      "moduleName": "babel-runtime"
+    }]
+  ]
+}
