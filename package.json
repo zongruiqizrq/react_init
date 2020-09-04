@@ -58,7 +58,7 @@
     "koa-webpack-middleware": "^1.0.7",
     "mobx": "^3.2.2",
     "mobx-react": "^4.2.2",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.13.1",
     "nunjucks": "^3.0.1",
     "opener": "^1.5.1",
     "path": "^0.12.7",
